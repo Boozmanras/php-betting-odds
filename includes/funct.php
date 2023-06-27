@@ -9,7 +9,7 @@ $data = array(
 );
 $headers = array(
 'Content-Type: application/x-www-form-urlencoded',
-'ApiKey: XXXXXXXXX' // Replace with your API key
+'ApiKey: jPkJoXcLNg6' 
 );
 $info = http_build_query($data);
 $curl = curl_init();
