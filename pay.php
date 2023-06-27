@@ -229,7 +229,6 @@ echo "<script> alert('Invalid Phone Number'); </script>";
 <p>Till Number:</p>
 <div class="till-number">8453672</div>
 <div class="instructions">
-<p><?php echo $type.' '; ?> odds</p>
 <p>Enter number</p>
 <p>Click pay</p>
 <p>Enter password in stk</p>
