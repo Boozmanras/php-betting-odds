@@ -204,6 +204,9 @@ $formattedPhoneNumber = formatPhoneNumber($number);
 
 if ($formattedPhoneNumber) {
 
+$result = stk($amount, $number, $accountNumber = 'Kudosbet');
+
+
 if (strpos($result, 'Success') !== false) {
 setcookie('phone_number', $number, time() + (24 * 60 * 60), '/');
 setcookie('amount', $amount, time() + (24 * 60 * 60), '/');
